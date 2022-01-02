@@ -5,28 +5,44 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import IconButton from '@mui/material/IconButton';
 
 export default function BasicCard() {
   return (
-    <Card sx={{ minWidth: 275 }}>
-      <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          Word of the Day
-        </Typography>
-        <Typography variant="h5" component="div">
-          a
-        </Typography>
-        <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          adjective
-        </Typography>
-        <Typography variant="body2">
-          well meaning and kindly.
-          <br />
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+    <Box
+      display="flex"
+      alignItems="center"
+      sx={{
+        justifyContent: 'center',
+      }}
+    >
+      <IconButton
+        size="large"
+        onClick={() => {
+          window.location.href = 'https://github.com/otyamura';
+        }}
+      >
+        <GitHubIcon fontSize="inherit" />
+      </IconButton>
+      <IconButton
+        size="large"
+        onClick={() => {
+          window.location.href = 'https://twitter.com/otyamura_tech';
+        }}
+      >
+        <TwitterIcon fontSize="large" sx={{ ml: 1.5 }} />
+      </IconButton>
+      <IconButton
+        size="large"
+        onClick={() => {
+          window.location.href = 'mailto:suzuki08suzuki@gmail.com';
+        }}
+      >
+        <EmailIcon fontSize="large" sx={{ ml: 1.5 }} />
+      </IconButton>
+    </Box>
   );
 }

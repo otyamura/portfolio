@@ -3,10 +3,10 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Home from './Home';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
+import History from './History';
 
 interface TabPanelProps {
   children: React.ReactNode;
@@ -53,17 +53,17 @@ export default function BasicTabs() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs indicatorColor="secondary" value={value} onChange={handleChange} centered>
-          <Tab label="Home" {...a11yProps(0)} />
-          <Tab label="About" {...a11yProps(1)} />
+          <Tab label="About" {...a11yProps(0)} />
+          <Tab label="History" {...a11yProps(1)} />
           <Tab label="Work" {...a11yProps(2)} />
           <Tab label="Contact" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Home />
+        <About />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <About />
+        <History />
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Work />
