@@ -25,6 +25,10 @@ const theme = createTheme({
       main: '#ff9800',
       light: '#ffac33',
     },
+    success: {
+      main: '#fe7e62',
+      light: '#ffac33',
+    },
   },
 });
 

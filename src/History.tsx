@@ -7,6 +7,8 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import { Typography } from '@mui/material';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import Link from '@mui/material/Link';
 
 export default function BasicTimeline() {
   return (
@@ -19,7 +21,7 @@ export default function BasicTimeline() {
           <TimelineDot variant="outlined" />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>Born in Shizuoka, Japan</TimelineContent>
+        <TimelineContent>静岡県沼津市にて生まれる</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent color="text.secondary">
@@ -30,8 +32,7 @@ export default function BasicTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          Entered Shizuoka Prefectural Numazu Technical High School,
-          Electronics Department
+          静岡県立沼津工業高等学校電子科入学
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -39,11 +40,11 @@ export default function BasicTimeline() {
           2018
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot variant="outlined" />
+          <TimelineDot variant="outlined" color="success" />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          Won the WRO2018 expert competition in Shizuoka Prefecture.
+          WRO2018静岡県大会優勝
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -55,7 +56,7 @@ export default function BasicTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          Graduated from Shizuoka Prefectural Numazu Technical High School
+          静岡県立沼津工業高等学校電子科卒業
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -67,7 +68,111 @@ export default function BasicTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          Entered Department of Computer Science at Shizuoka University
+          静岡大学情報学部情報科学科入学
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2020/05/03
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="success" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          第15回情報危機管理コンテスト 経済産業大臣賞受賞(優勝)
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2020/09 ~ 2020/10
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="info" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          株式会社コンビーズにてLaravel, Vue.jsを用いたWeb開発アルバイト
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2020/12/06
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="success" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          セキュリティキャンプ全国大会2020 Dトラック修了
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2021/03/23 ~ 2021/03/25
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="info" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          株式会社プログメイトにてアプリ作成インターン
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2021/05/06 ~ 現在
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="info" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          株式会社日本経済新聞社にてWeb開発インターン
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2021/09/01 ~ 2021/09/30
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="info" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          株式会社ヤプリにてSREインターン
+          <br />
+          <Link href="http://www.google.com" variant="body2">
+            ああああ
+          </Link>
+          <br />
+          <Link href="http://www.google.com" variant="body2">
+            ああああ
+          </Link>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2021/10/04 ~ 2021/11/05
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="info" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          株式会社リクルートにてセキュリティインターン
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          2021/10/26
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="success" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          MWS CUP2021にチームjinkai-countrymaamとして参加し総合4位
         </TimelineContent>
       </TimelineItem>
     </Timeline>

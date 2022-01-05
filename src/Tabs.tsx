@@ -50,7 +50,7 @@ export default function BasicTabs() {
     setValue(newValue);
   };
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', mb: 75 }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs indicatorColor="secondary" value={value} onChange={handleChange} centered>
           <Tab label="About" {...a11yProps(0)} />
