@@ -29,7 +29,7 @@ export default function Header() {
     >
       <Avatar
         alt="Otyamura"
-        src="/icon.PNG"
+        src="/icon.png"
         sx={{ width: 300, height: 300, bgcolor: 'white' }}
         className="slide-in-blurred-top"
       />
