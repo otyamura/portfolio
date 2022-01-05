@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createTheme } from '@mui/material/styles';
-import { Theme } from '@mui/material/styles';
+import { createTheme, Theme } from '@mui/material/styles';
 import './index.css';
 
 const theme = createTheme({

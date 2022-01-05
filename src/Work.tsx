@@ -29,7 +29,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="150"
                 width="auto"
-                image="/img/vrspeedrun.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/vrspeedrun.png`}
                 alt="vrspeedrun"
               />
               <CardContent>
