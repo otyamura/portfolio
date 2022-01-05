@@ -6,8 +6,6 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import { Typography } from '@mui/material';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Link from '@mui/material/Link';
 
 export default function BasicTimeline() {

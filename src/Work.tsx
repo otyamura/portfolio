@@ -9,6 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -33,15 +34,19 @@ export default function ResponsiveGrid() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                  VR SpeedRun
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  VR酔いを解決するためにニンテンドースイッチのJoyconを用いてVRゲームを作成しました。
+                  Unityを使用しています。
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/soupro-vimmer/VRSpeedRun">Link</Link>
+                </Button>
               </CardActions>
             </Card>
           </Item>
@@ -53,20 +58,23 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/SZOK.png"
-                alt="Siha adventure"
+                image="/img/font.png"
+                alt="Tenhamasen font"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                  天浜線フォント
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  天竜浜名湖鉄道の手書き看板文字をフォント化するプロジェクトに参加し、フォント作成をしていました。
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                  size="small"
+                >
+                  <Link href="http://www.hama365.info/tenhamasenfont/">Link</Link>
+                </Button>
               </CardActions>
             </Card>
           </Item>
@@ -83,15 +91,48 @@ export default function ResponsiveGrid() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                  Siha adventure
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  大学の文化祭で老若男女関わらず遊べるように声で操作するアクションゲームを制作しました。
+                  Unityを使用しています。
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/soupro-vimmer/VRSpeedRun">Link</Link>
+                </Button>
+              </CardActions>
+            </Card>
+          </Item>
+        </Grid>
+        <Grid item xs={4} sm={4} md={4} key={0}>
+          <Item>
+            <Card sx={{ minWidth: 300 }}>
+              <CardMedia
+                component="img"
+                height="550"
+                width="100"
+                image="/img/alarm.png"
+                alt="Alarm app"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Simple alarm app
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  株式会社プログメイトのインターンで開発したアラームアプリです。
+                  React NativeとExpoを用いました。
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/otyamura/continuous-alarm">Link</Link>
+                </Button>
               </CardActions>
             </Card>
           </Item>
@@ -103,20 +144,23 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/alarm.png"
+                image="/img/SZOK.png"
                 alt="Siha adventure"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                  SZOK大学からの脱出
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  ネタです。大学の授業にて迷路脱出アクションゲームを作成しました。Javafxを用いて作成しました。
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/otyamura/Escape_from_SZOK">Link</Link>
+                </Button>
               </CardActions>
             </Card>
           </Item>
@@ -129,7 +173,7 @@ export default function ResponsiveGrid() {
                 height="auto"
                 width="100"
                 image="/img/bot.png"
-                alt="Siha adventure"
+                alt="bot1"
               />
               <br />
               <CardMedia
@@ -137,19 +181,23 @@ export default function ResponsiveGrid() {
                 height="auto"
                 width="100"
                 image="/img/bot2.png"
-                alt="Siha adventure"
+                alt="bot2"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                  rise guys bot
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  セキュリティキャンプのグループワークにて作成したDiscord botです。
+                  リモートでのグループワークのアイスブレイク機能やGithubを用いた開発を円滑に行うための機能があります。
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/kisho-shiken-fall-guys/rise-guys-bot">Link</Link>
+                </Button>
               </CardActions>
             </Card>
           </Item>
@@ -161,20 +209,52 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/font.png"
-                alt="Siha adventure"
+                image="/img/seiseki.png"
+                alt="seiseki"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                  seiseki notification bot
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  静岡大学の学務情報サイトの成績が更新されたら通知をするLine botです。
+                  Seleniumを用いてスクレイピングしています。（成績はイメージです）
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/AD2-sawayaka/seiseki-notification-bot">Link</Link>
+                </Button>
+              </CardActions>
+            </Card>
+          </Item>
+        </Grid>
+        <Grid item xs={4} sm={4} md={4} key={0}>
+          <Item>
+            <Card sx={{ minWidth: 300 }}>
+              <CardMedia
+                component="img"
+                height="auto"
+                width="100"
+                image="/img/portfolio.png"
+                alt="portfolio"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  portfolio
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  このportfolioです。React.jsとMUIを用いて作成しました。
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/otyamura/portfolio-use-react">Link</Link>
+                </Button>
               </CardActions>
             </Card>
           </Item>
