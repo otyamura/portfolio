@@ -20,7 +20,7 @@ export default function Header() {
     >
       <Avatar
         alt="Otyamura"
-        src={`${process.env.PUBLIC_URL || 'default'}/icon.PNG`}
+        src={`${process.env.PUBLIC_URL || 'default'}/icon.png`}
         sx={{ width: 300, height: 300, bgcolor: 'white' }}
         className="slide-in-blurred-top"
       />
