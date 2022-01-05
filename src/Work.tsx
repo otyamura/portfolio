@@ -58,7 +58,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/font.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/font.png`}
                 alt="Tenhamasen font"
               />
               <CardContent>
@@ -86,7 +86,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/Siha.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/Siha.png`}
                 alt="Siha adventure"
               />
               <CardContent>
@@ -115,7 +115,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="550"
                 width="100"
-                image="/img/alarm.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/alarm.png`}
                 alt="Alarm app"
               />
               <CardContent>
@@ -144,7 +144,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/SZOK.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/SZOK.png`}
                 alt="Siha adventure"
               />
               <CardContent>
@@ -172,7 +172,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/bot.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/bot.png`}
                 alt="bot1"
               />
               <br />
@@ -180,7 +180,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/bot2.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/bot2.png`}
                 alt="bot2"
               />
               <CardContent>
@@ -209,7 +209,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/seiseki.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/seiseki.png`}
                 alt="seiseki"
               />
               <CardContent>
@@ -238,7 +238,7 @@ export default function ResponsiveGrid() {
                 component="img"
                 height="auto"
                 width="100"
-                image="/img/portfolio.png"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/portfolio.png`}
                 alt="portfolio"
               />
               <CardContent>
