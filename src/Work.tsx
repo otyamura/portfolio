@@ -253,7 +253,7 @@ export default function ResponsiveGrid() {
                 <Button
                   size="small"
                 >
-                  <Link href="https://github.com/otyamura/portfolio-use-react">Link</Link>
+                  <Link href="https://github.com/otyamura/portfolio">Link</Link>
                 </Button>
               </CardActions>
             </Card>
