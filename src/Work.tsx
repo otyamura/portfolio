@@ -259,6 +259,37 @@ export default function ResponsiveGrid() {
             </Card>
           </Item>
         </Grid>
+        <Grid item xs={4} sm={4} md={4} key={0}>
+          <Item>
+            <Card sx={{ minWidth: 300 }}>
+              <CardMedia
+                component="img"
+                height="auto"
+                width="100"
+                image={`${process.env.PUBLIC_URL || 'default'}/img/pokewordle.jpeg`}
+                alt="pokewodle"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Pokemon Wordle solver
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  ポケモンwordleの候補を出してくれるサイトです。 Ginを用いたAPIサーバーをデプロイしています。
+                  CI/CDまで凝ってみました。
+                  <br />
+                  使用技術:Gin, GORM, Cloud Run, Docker, Github Actions
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button
+                  size="small"
+                >
+                  <Link href="https://github.com/otyamura/pokewordle_solver">Link</Link>
+                </Button>
+              </CardActions>
+            </Card>
+          </Item>
+        </Grid>
       </Grid>
     </Box>
   );
