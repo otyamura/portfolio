@@ -10,6 +10,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
+import Chips from './Chips';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -24,7 +26,7 @@ export default function ResponsiveGrid() {
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minHeight: 300, minWidth: 300 }}>
+            <Card sx={{ minHeight: 300, minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="150"
@@ -49,11 +51,21 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Grid
+              item
+              sx={{
+                mt: 2,
+              }}
+              direction={{ xs: 'column', sm: 'row' }}
+              spacing={{ xs: 3, sm: 5, md: 6 }}
+            >
+              <Chips labels={['C#', 'Unity']} />
+            </Grid>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -77,11 +89,21 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Grid
+              item
+              sx={{
+                mt: 2,
+              }}
+              direction={{ xs: 'column', sm: 'row' }}
+              spacing={{ xs: 3, sm: 5, md: 6 }}
+            >
+              <Chips labels={['Glyphs']} />
+            </Grid>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -106,11 +128,21 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Grid
+              item
+              sx={{
+                mt: 2,
+              }}
+              direction={{ xs: 'column', sm: 'row' }}
+              spacing={{ xs: 3, sm: 5, md: 6 }}
+            >
+              <Chips labels={['C#', 'Unity']} />
+            </Grid>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="550"
@@ -135,11 +167,21 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Grid
+              item
+              sx={{
+                mt: 2,
+              }}
+              direction={{ xs: 'column', sm: 'row' }}
+              spacing={{ xs: 3, sm: 5, md: 6 }}
+            >
+              <Chips labels={['TypeScript', 'React Native', 'React Native Elements', 'Expo']} />
+            </Grid>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -163,11 +205,21 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Grid
+              item
+              sx={{
+                mt: 2,
+              }}
+              direction={{ xs: 'column', sm: 'row' }}
+              spacing={{ xs: 3, sm: 5, md: 6 }}
+            >
+              <Chips labels={['Java', 'Java FX']} />
+            </Grid>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -200,11 +252,21 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Grid
+              item
+              sx={{
+                mt: 2,
+              }}
+              direction={{ xs: 'column', sm: 'row' }}
+              spacing={{ xs: 3, sm: 5, md: 6 }}
+            >
+              <Chips labels={['Python', 'quart', 'discord bot', 'Heroku']} />
+            </Grid>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -229,11 +291,23 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Box sx={{ flexGrow: 1 }}>
+              <Grid
+                item
+                sx={{
+                  mt: 2,
+                }}
+                direction={{ xs: 'column', sm: 'row' }}
+                spacing={{ xs: 3, sm: 5, md: 6 }}
+              >
+                <Chips labels={['Python', 'flask', 'selenium', 'PostgreSQL', 'Heroku', 'LINE bot']} />
+              </Grid>
+            </Box>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -257,11 +331,23 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Box sx={{ flexGrow: 1 }}>
+              <Grid
+                item
+                sx={{
+                  mt: 2,
+                }}
+                direction={{ xs: 'column', sm: 'row' }}
+                spacing={{ xs: 3, sm: 5, md: 6 }}
+              >
+                <Chips labels={['TypeScript', 'React', 'MUI']} />
+              </Grid>
+            </Box>
           </Item>
         </Grid>
         <Grid item xs={4} sm={4} md={4} key={0}>
           <Item>
-            <Card sx={{ minWidth: 300 }}>
+            <Card sx={{ minWidth: 200 }}>
               <CardMedia
                 component="img"
                 height="auto"
@@ -276,8 +362,6 @@ export default function ResponsiveGrid() {
                 <Typography variant="body2" color="text.secondary">
                   ポケモンwordleの候補を出してくれるサイトです。 Ginを用いたAPIサーバーをデプロイしています。
                   CI/CDまで凝ってみました。
-                  <br />
-                  使用技術:Gin, GORM, Cloud Run, Docker, Github Actions
                 </Typography>
               </CardContent>
               <CardActions>
@@ -288,6 +372,18 @@ export default function ResponsiveGrid() {
                 </Button>
               </CardActions>
             </Card>
+            <Box sx={{ flexGrow: 1 }}>
+              <Grid
+                item
+                sx={{
+                  mt: 2,
+                }}
+                direction={{ xs: 'column', sm: 'row' }}
+                spacing={{ xs: 3, sm: 5, md: 6 }}
+              >
+                <Chips labels={['Go', 'JavaScript', 'GORM', 'Gin', 'Cloud Run', 'Cloud Build', 'Docker', 'Github Actions']} />
+              </Grid>
+            </Box>
           </Item>
         </Grid>
       </Grid>

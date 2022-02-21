@@ -140,11 +140,11 @@ export default function BasicTimeline() {
         <TimelineContent>
           株式会社ヤプリにてSREインターン
           <br />
-          <Link href="https://tech.yappli.io/entry/guardduty_improve" variant="body2">
+          <Link href="https://tech.yappli.io/entry/guardduty_improve" variant="body2" color="secondary.main">
             インターン生がGuardDutyのSlack通知を改善してみた！
           </Link>
           <br />
-          <Link href="https://tech.yappli.io/entry/detective_dns" variant="body2">
+          <Link href="https://tech.yappli.io/entry/detective_dns" variant="body2" color="secondary.main">
             Amazon DetectiveでDNSの検知結果を調査できるようになったらしいので検知させてみた！
           </Link>
         </TimelineContent>
