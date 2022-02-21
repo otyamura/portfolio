@@ -55,7 +55,7 @@ export default function BasicTabs() {
         <Tabs indicatorColor="secondary" value={value} onChange={handleChange} centered>
           <Tab label="About" {...a11yProps(0)} />
           <Tab label="History" {...a11yProps(1)} />
-          <Tab label="Work" {...a11yProps(2)} />
+          <Tab label="Works" {...a11yProps(2)} />
           <Tab label="Contact" {...a11yProps(3)} />
         </Tabs>
       </Box>
