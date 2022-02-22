@@ -38,6 +38,21 @@ export default function BasicCard() {
         <Typography variant="h6" component="div">
           ・Web Security
         </Typography>
+        <Typography variant="h6" component="div" sx={{ mb: 1.5 }}>
+          ・Backend
+        </Typography>
+        <Typography variant="h5" component="div" sx={{ mb: 1.5, fontWeight: 'bold' }}>
+          Others
+        </Typography>
+        <Typography variant="h6" component="div">
+          ・ITS(大学内のPCトラブル相談委員会) 元代表
+        </Typography>
+        <Typography variant="h6" component="div">
+          ・静岡大学学長表彰受賞
+        </Typography>
+        <Typography variant="h6" component="div">
+          ・WRO2018 Expert部門 静岡県大会優勝
+        </Typography>
       </CardContent>
     </Card>
   );
